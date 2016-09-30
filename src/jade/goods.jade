@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        include ./_modules/_head.jade
+        title 产品
+        script(src='../app/app.goods.js')
+    body
+        include ./_modules/_topLogo.jade
+        include ./_modules/_banner.jade
+        include ./_modules/_navigation.jade
+        div.common
+            nav.listNav.clearfix
+                a(href='#') 仿真资源
+                b ·
+                a(href='#') 虚拟现实
+                b ·
+                a(href='#') 物联网
+                b ·
+                a(href='#') 所有产品
+            include ./_modules/_picGoodsList.jade
+            include ./_modules/_pagination.jade
+        include ./_modules/_footer.jade

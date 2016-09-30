@@ -1,0 +1,70 @@
+doctype html
+html
+    head
+        include ./_modules/_head.jade
+        title 招聘
+        script(src='../app/app.recruit.js')
+    body
+        include ./_modules/_topLogo.jade
+        include ./_modules/_banner.jade
+        include ./_modules/_navigation.jade
+        div.common.recruit-box
+            h2.hTitle.hTitle-center
+                a(href='recruit.html') 人才招聘
+                span JOIN US
+            nav.recruit-city
+                a(href='#') 北京
+                a.thisCity(href='#') 沈阳
+                a(href='#') 上海
+            table.recruit-table
+                thead
+                    tr
+                        th 类别
+                        th 职位名称
+                        th 学历要求
+                        th 招聘人数
+                        th 发布日期
+                        th 查看详情
+                tbody
+                    tr
+                        td 技术类
+                        td 高级JAVA工程师
+                        td 大专及以上
+                        td 10
+                        td 2016-7-20
+                        td
+                            a(href='#') 查看详情
+                    tr
+                        td 技术类
+                        td 高级JAVA工程师
+                        td 大专及以上
+                        td 10
+                        td 2016-7-20
+                        td
+                            a(href='#') 查看详情
+                    tr
+                        td 技术类
+                        td 高级JAVA工程师
+                        td 大专及以上
+                        td 10
+                        td 2016-7-20
+                        td
+                            a(href='#') 查看详情
+                    tr
+                        td 技术类
+                        td 高级JAVA工程师
+                        td 大专及以上
+                        td 10
+                        td 2016-7-20
+                        td
+                            a(href='#') 查看详情
+                    tr
+                        td 技术类
+                        td 高级JAVA工程师
+                        td 大专及以上
+                        td 10
+                        td 2016-7-20
+                        td
+                            a(href='#') 查看详情
+            include ./_modules/_pagination.jade
+        include ./_modules/_footer.jade

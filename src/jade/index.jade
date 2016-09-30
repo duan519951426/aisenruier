@@ -1,0 +1,85 @@
+doctype html
+html
+    head
+        include ./_modules/_head.jade
+        title 艾森瑞尔
+        script(src='../app/app.index.js')
+    body
+        include ./_modules/_topLogo.jade
+        include ./_modules/_banner.jade
+        include ./_modules/_navigation.jade
+        div.common.layout.clearfix
+            section.layout-left.float-l
+                h2.hTitle.title-margin
+                    a(href='about.html') 公司简介
+                    span COMPANY PROFILE
+                a.guanggao(href='about.html')
+                    img(src='../img/guanggao1.jpg')
+                article.layout-left-text 沈阳埃森瑞尔科技有限公司，以下简称"埃森瑞尔"。是集IT咨询、软件应用及平台开发、软硬件及网络系统集成、产品生产及销售为一体的高科技新兴企业。公司具有雄厚的技术研发实力，建立了完善的管理与服务体制，本着"创新为本，服务至上"的宗旨，竭诚为广大客户提供高质量的售前和售后的服务。
+            section.layout-center.float-l
+                h2.hTitle.title-margin
+                    a(href='newsList.html') 新闻资讯
+                    span NEWS INFORMATION
+                ul.newsList
+                    li
+                        time
+                            b 20
+                            span 2016.07
+                        article
+                            a(href='#') 沈阳埃森瑞尔科技有限公司开业仪式
+                            p 2016年7月20日，沈阳埃森瑞尔科技有限公司开业仪式圆满完成
+                    li
+                        time
+                            b 20
+                            span 2016.07
+                        article
+                            a(href='#') 沈阳埃森瑞尔科技有限公司开业仪式
+                            p 2016年7月20日，沈阳埃森瑞尔科技有限公司开业仪式圆满完成
+                    li
+                        time
+                            b 20
+                            span 2016.07
+                        article
+                            a(href='#') 沈阳埃森瑞尔科技有限公司开业仪式
+                            p 2016年7月20日，沈阳埃森瑞尔科技有限公司开业仪式圆满完成
+            section.layout-right.float-l
+                h2.hTitle.title-margin
+                    a(href='#') 视频展示
+                    span VISUAL PRESENT
+                div.videobox
+                    video#video
+                        source(src='../video/mov_bbb.mp4' type='video/mp4')
+                        div.video-ie 您的浏览器版本过低，不支持播放该视频。
+                    div.video-ctrl
+                        i.vc-play#video-ctrl-play
+                        i.vc-pause#video-ctrl-pause
+            section.cooperativePartner
+                h2.hTitle.float-l
+                    a(href='#') 合作伙伴
+                    span COOPERATIVE PARTNER
+                nav.cooperativePartner-nav.float-l
+                    a(href='#')
+                        img(src='../img/_friends/f-0.png')
+                        div.cooperativePartner-img
+                            img(src='../img/_friends/x.png')
+                    a(href='#')
+                        img(src='../img/_friends/f-1.png')
+                        div.cooperativePartner-img
+                            img(src='../img/_friends/x.png')
+                    a(href='#')
+                        img(src='../img/_friends/f-2.png')
+                        div.cooperativePartner-img
+                            img(src='../img/_friends/x.png')
+                    a(href='#')
+                        img(src='../img/_friends/f-3.png')
+                        div.cooperativePartner-img
+                            img(src='../img/_friends/x.png')
+                    a(href='#')
+                        img(src='../img/_friends/f-4.png')
+                        div.cooperativePartner-img
+                            img(src='../img/_friends/x.png')
+                    a(href='#')
+                        img(src='../img/_friends/f-5.png')
+                        div.cooperativePartner-img
+                            img(src='../img/_friends/x.png')
+        include ./_modules/_footer.jade

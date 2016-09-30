@@ -1,0 +1,42 @@
+/*** 轮播banner ***/
+.banner
+  width: 100%
+  min-width: 1200px
+  height: 500px
+.banner-image
+  position: relative
+  width: 100%
+  overflow: hidden
+.banner-image, .banner-imageBox
+  height: 100%
+.banner-imageBox
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
+  a
+    display: block
+    float: left
+    background-repeat: no-repeat
+    background-position: center center
+    height: 100%
+.banner-clickBox
+  position: relative
+  z-index: 2
+  display: block
+  margin: -30px auto
+  text-align: center
+  li
+    display: inline-block
+    *display: inline
+    *zoom: 1
+    width: 8px
+    height: 8px
+    margin: 0 10px
+    border-width: 1px
+    border-style: solid
+    border-color: #616161
+    border-radius: 8px
+  li.thisIndex
+    background-color: #f00
+    border-color: #f00
